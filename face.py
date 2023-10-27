@@ -61,6 +61,7 @@ def readGroundtruth(filename='groundtruth.txt'):
                     print("face" + str(current_number - 1))
                     print("success count = " + str(success_count) + " | " + "valid count = " + str(valid_count))
                     print("TPR: " + str(success_count / valid_count))
+                    # not sure how to find fp and fn
                     # print("F1: " + str((2 * success_count) / (2 * success_count + (predicted_count - valid_count) + )))
                     print()
 
